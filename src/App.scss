@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+h1 {
+  font-size: large;
+}
+
+.app {
+  background-color: #ffeeff;
+  width: 100em;
+  margin-top: 20px;
+}
+
+.addTodoInput {
+  margin-right: 10px;
+  width: 100em;
+}
+
+.button {
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todoApp {
+  margin: auto;
+  width: 80em;
+  margin-top: 2em;
+}
+
+.columns {
+  padding: 20px;
+}
+
+$box-padding: 1rem;
+// $panel-margin: 10rem;
+
+@import "../node_modules/bulma/bulma.sass";
+// @import '../node_modules/bulma/sass/elements/button.sass';
+
+// $text-strong: red;
+// @import '../node_modules/bulma/bulma.sass';
+// @import '~react-bulma-components/src/index.sass';
