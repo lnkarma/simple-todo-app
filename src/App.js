@@ -5,6 +5,8 @@ function Button(props) {
   return <button className="button is-inline">{props.children}</button>;
 }
 
+// Author: Lokenath Karmakar
+
 class TodoElement extends React.Component {
   constructor(props) {
     super(props);
